@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Personal Library</string>
+
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="pages">Pages</string>
+    <string name="publisher">Publisher</string>
+    <string name="published_year">Published year</string>
+    <string name="genre">Genre</string>
+    <string name="summary_intent">Summary</string>
+    <string name="byte_image">byte_image</string>
+
+    <string name="summary">Please provide a short summary...</string>
+    <string name="book_info">Add book information</string>
+
+    <!--  Details Activity -->
+    <string name="summary_details">About the book</string>
+    <string name="title_">Title:</string>
+    <string name="author_">Author:</string>
+    <string name="pages_">Pages</string>
+    <string name="publisher_">Publisher:</string>
+    <string name="genre_">Genre:</string>
+    <string name="published_year_">Published year:</string>
+    <string name="book_details">Details</string>
+
+    <!--  Update Activity  -->
+    <string name="update_toolbar_title">Update Fields</string>
+</resources>

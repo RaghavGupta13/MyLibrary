@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    title-->
+
+    <TextView
+        android:id="@+id/id_title_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harry Potter and the Goblet of Fire"
+        android:fontFamily="@font/chelsea_market"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="2dp"/>
+
+    <!--    author-->
+
+    <TextView
+        android:id="@+id/id_author_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/chelsea_market"
+        android:textSize="12sp"
+        android:text="JK Rowling"
+        android:layout_marginTop="4dp"/>
+
+    <!--    publisher-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/publisher_"
+            android:fontFamily="@font/chelsea_market"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/id_publisher_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/chelsea_market"
+            android:textSize="12sp"
+            android:text="Oxford Publishing House"
+            android:layout_marginLeft="4dp"/>
+
+    </LinearLayout>
+
+    <!--    pages-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:id="@+id/id_pages_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/chelsea_market"
+            android:textSize="12sp"
+            android:text="250"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pages_"
+            android:fontFamily="@font/chelsea_market"
+            android:textSize="12sp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"/>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="8dp"
+                android:background="#d3d3d3"
+                android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/id_published_year_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/chelsea_market"
+            android:textSize="12sp"
+            android:text="1961"
+            android:layout_marginLeft="8dp"/>
+
+
+    </LinearLayout>
+
+    <!--    genre-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/genre_"
+            android:fontFamily="@font/chelsea_market"
+            android:textSize="12sp"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/id_genre_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/chelsea_market"
+            android:textSize="12sp"
+            android:text="Historical"
+            android:layout_marginLeft="4dp"
+            android:layout_marginBottom="2dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
